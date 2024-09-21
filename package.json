@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "<!-- **aryaidnani/aryaidnani** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
   "main": "backend.mjs",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
+    "start": "node backend.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

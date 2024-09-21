@@ -6,6 +6,8 @@ app.use(
   cors({
     domains: [
       "https://aryaidnani-sandbox-git-main-aryaidnanis-projects.vercel.app/",
+      "https://aryaidnani-sandbox-git-main-aryaidnanis-projects.vercel.app/index.html",
+      "https://aryaidnani-sandbox-git-main-aryaidnanis-projects.vercel.app/progress.html",
     ],
   })
 );

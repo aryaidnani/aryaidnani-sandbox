@@ -2,6 +2,14 @@ import cors from "cors";
 import express from "express";
 const app = express();
 
+app.use(
+  cors({
+    domains: [
+      "https://aryaidnani-sandbox-git-main-aryaidnanis-projects.vercel.app",
+    ],
+  })
+);
+
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*"); // Allow all origins
   res.header(
@@ -10,14 +18,6 @@ app.use((req, res, next) => {
   );
   next();
 });
-
-app.use(
-  cors({
-    domains: [
-      "https://aryaidnani-sandbox-git-main-aryaidnanis-projects.vercel.app",
-    ],
-  })
-);
 
 let viewCounter = 0;
 

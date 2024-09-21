@@ -6,7 +6,7 @@ app.use(cors());
 
 let viewCounter = 0;
 
-app.get("/", (req, res) => {
+app.get("/backend", (req, res) => {
   viewCounter++;
   console.log(viewCounter);
   res.json({
@@ -14,4 +14,4 @@ app.get("/", (req, res) => {
   });
 });
 
-app.listen(443);
+app.listen();

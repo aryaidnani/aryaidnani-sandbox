@@ -32,10 +32,14 @@
     </div>
     <script type="module" src="about-script.mjs"></script>
     <script>
-      axios.get("http://localhost:443/").then((response) => {
-        const haha = JSON.stringify(response.data.message);
-        console.log(haha);
-      });
+      axios
+        .get(
+          "https://aryaidnani-sandbox-kfejrnxf9-aryaidnanis-projects.vercel.app/backend"
+        )
+        .then((response) => {
+          const haha = JSON.stringify(response.data.message);
+          console.log(haha);
+        });
     </script>
   </body>
 </html>

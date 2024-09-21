@@ -5,7 +5,7 @@ const app = express();
 app.use(
   cors({
     domains: [
-      "https://aryaidnani-sandbox-git-main-aryaidnanis-projects.vercel.app",
+      "https://aryaidnani-sandbox-git-main-aryaidnanis-projects.vercel.app/",
     ],
   })
 );

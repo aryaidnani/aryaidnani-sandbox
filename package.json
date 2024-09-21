@@ -1,0 +1,16 @@
+{
+  "name": "aryaidnani_old",
+  "version": "1.0.0",
+  "description": "<!-- **aryaidnani/aryaidnani** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
+  "main": "backend.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  }
+}

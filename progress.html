@@ -31,5 +31,13 @@
       <!-- <h2 class="sort-btn latest">Latest</h2> -->
     </div>
     <script type="module" src="about-script.mjs"></script>
+    <script>
+      axios
+        .get("https://aryaidnani-sandbox.vercel.app/api/backend")
+        .then((response) => {
+          const haha = JSON.stringify(response);
+          console.log(haha);
+        });
+    </script>
   </body>
 </html>

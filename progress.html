@@ -33,9 +33,7 @@
     <script type="module" src="about-script.mjs"></script>
     <script>
       axios
-        .get(
-          "https://aryaidnani-sandbox-kfejrnxf9-aryaidnanis-projects.vercel.app/backend"
-        )
+        .get("https://aryaidnani-sandbox.vercel.app/backend")
         .then((response) => {
           const haha = JSON.stringify(response.data.message);
           console.log(haha);
